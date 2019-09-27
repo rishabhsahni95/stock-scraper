@@ -4,7 +4,7 @@ from ..items import StockCrawlerItem
 
 class StockSpiderSpider(scrapy.Spider):
     name = 'stock_spider'
-    api='http://api.scraperapi.com/?api_key=822da7f5e247570657b28227f6d782f1&url='
+    api=#API KEY FROM SCRAPERAPI.COM GOES IN HERE
     link = 'https://www.moneycontrol.com/stocks/marketstats/bse-mostactive-stocks/all-companies-97/'
     start_urls=[api+link+'&render=true'] #&render=true renders the Javascipt
 
